@@ -19,12 +19,12 @@ public class CorsConfig {
     public CorsFilter corsFilter() {
         CorsConfiguration config = new CorsConfiguration();
 
-        // Allowed origins — portfolio website domains
-        config.setAllowedOrigins(List.of(
-                "https://david-garcia.co.uk",
-                "https://www.david-garcia.co.uk",
-                "http://localhost:3000",
-                "http://127.0.0.1:5500"
+        // Allowed origins — production + local development (any localhost port)
+        config.setAllowedOriginPatterns(List.of(
+            "https://david-garcia.co.uk",
+            "https://www.david-garcia.co.uk",
+            "http://localhost:*",
+            "http://127.0.0.1:*"
         ));
 
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
