@@ -19,8 +19,8 @@ FROM eclipse-temurin:21-jre
 
 WORKDIR /app
 
-# Copy the built JAR from the build stage
-COPY --from=build /app/target/satellite-api-0.0.1-SNAPSHOT.jar app.jar
+# Copy the built JAR from the build stage (version-agnostic)
+COPY --from=build /app/target/*.jar app.jar
 
 # Railway sets PORT env var; default to 8080 locally
 ENV PORT=8080
