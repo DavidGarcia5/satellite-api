@@ -1,0 +1,371 @@
+2026-02-22T12:03:44.348Z  INFO 31936 --- [satellite-api] [restartedMain] c.satellite.api.SatelliteApiApplication  : Starting SatelliteApiApplication using Java 21.0.10 with PID 31936 (C:\Users\David\OneDrive\Desktop\satellite-api\satellite-api\target\classes started by David in C:\Users\David\OneDrive\Desktop\satellite-api\satellite-api)
+2026-02-22T12:03:44.349Z  INFO 31936 --- [satellite-api] [restartedMain] c.satellite.api.SatelliteApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-02-22T12:03:44.443Z  INFO 31936 --- [satellite-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-22T12:03:44.450Z  INFO 31936 --- [satellite-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interface.
+2026-02-22T12:03:44.497Z  INFO 31936 --- [satellite-api] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-02-22T12:03:44.498Z  INFO 31936 --- [satellite-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-22T12:03:44.498Z  INFO 31936 --- [satellite-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-02-22T12:03:44.509Z  INFO 31936 --- [satellite-api] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 158 ms
+2026-02-22T12:03:44.528Z  INFO 31936 --- [satellite-api] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-22T12:03:44.543Z  INFO 31936 --- [satellite-api] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-22T12:03:44.544Z  INFO 31936 --- [satellite-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-02-22T12:03:44.545Z  INFO 31936 --- [satellite-api] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:satellitedb user=SA
+2026-02-22T12:03:44.545Z  INFO 31936 --- [satellite-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-02-22T12:03:44.546Z  INFO 31936 --- [satellite-api] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:satellitedb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: SATELLITEDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-22T12:03:44.571Z  INFO 31936 --- [satellite-api] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22T12:03:44.573Z  INFO 31936 --- [satellite-api] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-22T12:03:44.609Z  WARN 31936 --- [satellite-api] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-22T12:03:44.672Z  INFO 31936 --- [satellite-api] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-02-22T12:03:44.740Z  INFO 31936 --- [satellite-api] [restartedMain] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:satellitedb'
+2026-02-22T12:03:44.749Z  INFO 31936 --- [satellite-api] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-02-22T12:03:44.750Z  INFO 31936 --- [satellite-api] [restartedMain] c.satellite.api.SatelliteApiApplication  : Started SatelliteApiApplication in 0.425 seconds (process running for 489.306)
+2026-02-22T12:03:44.756Z  INFO 31936 --- [satellite-api] [restartedMain] com.satellite.api.config.DataSeeder      : Seeded database with 3 sample satellites
+2026-02-22T12:03:44.757Z  INFO 31936 --- [satellite-api] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-02-22T12:03:56.747Z  INFO 269928 --- [satellite-api] [main] s.a.c.SatelliteControllerIntegrationTest : Starting SatelliteControllerIntegrationTest using Java 21.0.10 with PID 269928 (started by David in C:\Users\David\OneDrive\Desktop\satellite-api\satellite-api)
+2026-02-22T12:03:56.749Z  INFO 269928 --- [satellite-api] [main] s.a.c.SatelliteControllerIntegrationTest : No active profile set, falling back to 1 default profile: "default"
+2026-02-22T12:03:57.312Z  INFO 269928 --- [satellite-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-22T12:03:57.350Z  INFO 269928 --- [satellite-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2026-02-22T12:03:57.727Z  INFO 269928 --- [satellite-api] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-22T12:03:57.789Z  INFO 269928 --- [satellite-api] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-02-22T12:03:58.120Z  INFO 269928 --- [satellite-api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-22T12:03:58.140Z  INFO 269928 --- [satellite-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-22T12:03:58.230Z  INFO 269928 --- [satellite-api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:satellitedb user=SA
+2026-02-22T12:03:58.231Z  INFO 269928 --- [satellite-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-22T12:03:58.268Z  INFO 269928 --- [satellite-api] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:satellitedb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: SATELLITEDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-22T12:03:58.734Z  INFO 269928 --- [satellite-api] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22T12:03:58.755Z  INFO 269928 --- [satellite-api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-22T12:03:58.803Z  INFO 269928 --- [satellite-api] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-22T12:03:59.069Z  WARN 269928 --- [satellite-api] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-22T12:03:59.247Z  INFO 269928 --- [satellite-api] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-02-22T12:03:59.664Z  INFO 269928 --- [satellite-api] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:satellitedb'
+2026-02-22T12:03:59.728Z  INFO 269928 --- [satellite-api] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-02-22T12:03:59.728Z  INFO 269928 --- [satellite-api] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-02-22T12:03:59.729Z  INFO 269928 --- [satellite-api] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-02-22T12:03:59.749Z  INFO 269928 --- [satellite-api] [main] s.a.c.SatelliteControllerIntegrationTest : Started SatelliteControllerIntegrationTest in 3.202 seconds (process running for 4.009)
+2026-02-22T12:04:00.035Z  INFO 269928 --- [satellite-api] [main] com.satellite.api.config.DataSeeder      : Seeded database with 3 sample satellites
+2026-02-22T12:04:00.295Z  INFO 269928 --- [satellite-api] [main] c.s.api.service.SatelliteServiceImpl     : Retrieving satellite with id: 4
+2026-02-22T12:04:00.483Z  INFO 269928 --- [satellite-api] [main] c.s.api.service.SatelliteServiceImpl     : Deleting satellite with id: 9999
+2026-02-22T12:04:00.517Z  WARN 269928 --- [satellite-api] [main] c.s.a.exception.GlobalExceptionHandler   : Satellite not found: Satellite not found with id: 9999
+2026-02-22T12:04:00.575Z  INFO 269928 --- [satellite-api] [main] c.s.api.service.SatelliteServiceImpl     : Deleting satellite with id: 6
+2026-02-22T12:04:00.580Z  INFO 269928 --- [satellite-api] [main] c.s.api.service.SatelliteServiceImpl     : Retrieving satellite with id: 6
+2026-02-22T12:04:00.581Z  WARN 269928 --- [satellite-api] [main] c.s.a.exception.GlobalExceptionHandler   : Satellite not found: Satellite not found with id: 6
+2026-02-22T12:04:00.593Z  INFO 269928 --- [satellite-api] [main] c.s.api.service.SatelliteServiceImpl     : Retrieving position for satellite with id: 9999
+2026-02-22T12:04:00.595Z  WARN 269928 --- [satellite-api] [main] c.s.a.exception.GlobalExceptionHandler   : Satellite not found: Satellite not found with id: 9999
+2026-02-22T12:04:00.602Z  INFO 269928 --- [satellite-api] [main] c.s.api.service.SatelliteServiceImpl     : Retrieving position for satellite with id: 9
+2026-02-22T12:04:00.609Z  INFO 269928 --- [satellite-api] [main] c.s.api.service.SatelliteServiceImpl     : Retrieving all satellites
+2026-02-22T12:04:00.719Z  INFO 269928 --- [satellite-api] [main] c.s.api.service.SatelliteServiceImpl     : Updating satellite with id: 9999
+2026-02-22T12:04:00.720Z  WARN 269928 --- [satellite-api] [main] c.s.a.exception.GlobalExceptionHandler   : Satellite not found: Satellite not found with id: 9999
+2026-02-22T12:04:00.727Z  INFO 269928 --- [satellite-api] [main] c.s.api.service.SatelliteServiceImpl     : Retrieving satellite with id: 9999
+2026-02-22T12:04:00.728Z  WARN 269928 --- [satellite-api] [main] c.s.a.exception.GlobalExceptionHandler   : Satellite not found: Satellite not found with id: 9999
+2026-02-22T12:04:00.787Z  WARN 269928 --- [satellite-api] [main] c.s.a.exception.GlobalExceptionHandler   : Validation failed: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.satellite.api.dto.SatelliteResponse> com.satellite.api.controller.SatelliteController.createSatellite(com.satellite.api.dto.SatelliteRequest) with 4 errors: [Field error in object 'satelliteRequest' on field 'launchDate': rejected value [null]; codes [NotNull.satelliteRequest.launchDate,NotNull.launchDate,NotNull.java.time.LocalDateTime,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [satelliteRequest.launchDate,launchDate]; arguments []; default message [launchDate]]; default message [Launch date is required]] [Field error in object 'satelliteRequest' on field 'name': rejected value []; codes [NotBlank.satelliteRequest.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [satelliteRequest.name,name]; arguments []; default message [name]]; default message [Name is required]] [Field error in object 'satelliteRequest' on field 'parameters': rejected value [null]; codes [NotNull.satelliteRequest.parameters,NotNull.parameters,NotNull.com.satellite.api.dto.SatelliteParametersRequest,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [satelliteRequest.parameters,parameters]; arguments []; default message [parameters]]; default message [Parameters are required]] [Field error in object 'satelliteRequest' on field 'orbit': rejected value [null]; codes [NotNull.satelliteRequest.orbit,NotNull.orbit,NotNull.com.satellite.api.model.OrbitType,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [satelliteRequest.orbit,orbit]; arguments []; default message [orbit]]; default message [Orbit type is required]] 
+2026-02-22T12:04:00.853Z  WARN 269928 --- [satellite-api] [main] c.s.a.exception.GlobalExceptionHandler   : Validation failed: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.satellite.api.dto.SatelliteResponse> com.satellite.api.controller.SatelliteController.createSatellite(com.satellite.api.dto.SatelliteRequest) with 3 errors: [Field error in object 'satelliteRequest' on field 'parameters.lat': rejected value [999.0]; codes [DecimalMax.satelliteRequest.parameters.lat,DecimalMax.parameters.lat,DecimalMax.lat,DecimalMax.double,DecimalMax]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [satelliteRequest.parameters.lat,parameters.lat]; arguments []; default message [parameters.lat],true,90.0]; default message [Latitude must be <= 90]] [Field error in object 'satelliteRequest' on field 'parameters.lon': rejected value [-999.0]; codes [DecimalMin.satelliteRequest.parameters.lon,DecimalMin.parameters.lon,DecimalMin.lon,DecimalMin.double,DecimalMin]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [satelliteRequest.parameters.lon,parameters.lon]; arguments []; default message [parameters.lon],true,-180.0]; default message [Longitude must be >= -180]] [Field error in object 'satelliteRequest' on field 'parameters.alt': rejected value [-100.0]; codes [Min.satelliteRequest.parameters.alt,Min.parameters.alt,Min.alt,Min.double,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [satelliteRequest.parameters.alt,parameters.alt]; arguments []; default message [parameters.alt],0]; default message [Altitude must be >= 0]] 
+2026-02-22T12:04:00.906Z  INFO 269928 --- [satellite-api] [main] c.s.api.service.SatelliteServiceImpl     : Creating satellite: Hubble
+2026-02-22T12:04:00.961Z  INFO 269928 --- [satellite-api] [main] c.s.api.service.SatelliteServiceImpl     : Updating satellite with id: 17
+2026-02-22T12:04:00.974Z  INFO 269928 --- [satellite-api] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.satellite.api.SatelliteApiApplicationTests]: SatelliteApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-22T12:04:00.978Z  INFO 269928 --- [satellite-api] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.satellite.api.SatelliteApiApplication for test class com.satellite.api.SatelliteApiApplicationTests
+2026-02-22T12:04:00.982Z  INFO 269928 --- [satellite-api] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2026-02-22T12:04:00.997Z  INFO 269928 --- [satellite-api] [main] c.s.api.SatelliteApiApplicationTests     : Starting SatelliteApiApplicationTests using Java 21.0.10 with PID 269928 (started by David in C:\Users\David\OneDrive\Desktop\satellite-api\satellite-api)
+2026-02-22T12:04:00.997Z  INFO 269928 --- [satellite-api] [main] c.s.api.SatelliteApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2026-02-22T12:04:01.095Z  INFO 269928 --- [satellite-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-22T12:04:01.102Z  INFO 269928 --- [satellite-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2026-02-22T12:04:01.131Z  INFO 269928 --- [satellite-api] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-22T12:04:01.157Z  INFO 269928 --- [satellite-api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-22T12:04:01.158Z  INFO 269928 --- [satellite-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-02-22T12:04:01.159Z  INFO 269928 --- [satellite-api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:satellitedb user=SA
+2026-02-22T12:04:01.159Z  INFO 269928 --- [satellite-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-02-22T12:04:01.159Z  INFO 269928 --- [satellite-api] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:satellitedb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: SATELLITEDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-22T12:04:01.178Z  INFO 269928 --- [satellite-api] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22T12:04:01.181Z  INFO 269928 --- [satellite-api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-22T12:04:01.204Z  WARN 269928 --- [satellite-api] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-22T12:04:01.265Z  INFO 269928 --- [satellite-api] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-02-22T12:04:01.313Z  INFO 269928 --- [satellite-api] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:satellitedb'
+2026-02-22T12:04:01.322Z  INFO 269928 --- [satellite-api] [main] c.s.api.SatelliteApiApplicationTests     : Started SatelliteApiApplicationTests in 0.34 seconds (process running for 5.583)
+2026-02-22T12:04:01.328Z  INFO 269928 --- [satellite-api] [main] com.satellite.api.config.DataSeeder      : Seeded database with 3 sample satellites
+2026-02-22T12:04:01.695Z  INFO 269928 --- [satellite-api] [main] c.s.api.service.SatelliteServiceImpl     : Deleting satellite with id: 99
+2026-02-22T12:04:01.743Z  INFO 269928 --- [satellite-api] [main] c.s.api.service.SatelliteServiceImpl     : Retrieving position for satellite with id: 1
+2026-02-22T12:04:01.765Z  INFO 269928 --- [satellite-api] [main] c.s.api.service.SatelliteServiceImpl     : Updating satellite with id: 1
+2026-02-22T12:04:01.770Z  INFO 269928 --- [satellite-api] [main] c.s.api.service.SatelliteServiceImpl     : Updating satellite with id: 99
+2026-02-22T12:04:01.772Z  INFO 269928 --- [satellite-api] [main] c.s.api.service.SatelliteServiceImpl     : Retrieving all satellites
+2026-02-22T12:04:01.796Z  INFO 269928 --- [satellite-api] [main] c.s.api.service.SatelliteServiceImpl     : Retrieving all satellites
+2026-02-22T12:04:01.806Z  INFO 269928 --- [satellite-api] [main] c.s.api.service.SatelliteServiceImpl     : Retrieving satellite with id: 1
+2026-02-22T12:04:01.808Z  INFO 269928 --- [satellite-api] [main] c.s.api.service.SatelliteServiceImpl     : Retrieving satellite with id: 99
+2026-02-22T12:04:01.811Z  INFO 269928 --- [satellite-api] [main] c.s.api.service.SatelliteServiceImpl     : Retrieving position for satellite with id: 99
+2026-02-22T12:04:01.812Z  INFO 269928 --- [satellite-api] [main] c.s.api.service.SatelliteServiceImpl     : Creating satellite: ISS
+2026-02-22T12:04:01.817Z  INFO 269928 --- [satellite-api] [main] c.s.api.service.SatelliteServiceImpl     : Deleting satellite with id: 1
+2026-02-22T12:04:01.829Z  INFO 269928 --- [satellite-api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-22T12:04:01.836Z  INFO 269928 --- [satellite-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-02-22T12:04:01.840Z  INFO 269928 --- [satellite-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-02-22T12:04:01.844Z  INFO 269928 --- [satellite-api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-22T12:04:01.845Z  INFO 269928 --- [satellite-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-02-22T12:04:01.847Z  INFO 269928 --- [satellite-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-02-22T12:04:31.889Z  INFO 31936 --- [satellite-api] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-22T12:04:31.889Z  INFO 31936 --- [satellite-api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-22T12:04:31.890Z  INFO 31936 --- [satellite-api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-02-22T12:04:31.892Z  INFO 31936 --- [satellite-api] [http-nio-8080-exec-1] c.s.api.service.SatelliteServiceImpl     : Retrieving satellite with id: 1
+2026-02-22T12:04:33.179Z  INFO 31936 --- [satellite-api] [http-nio-8080-exec-4] c.s.api.service.SatelliteServiceImpl     : Retrieving satellite with id: 1
+2026-02-22T12:04:34.365Z  INFO 31936 --- [satellite-api] [http-nio-8080-exec-3] c.s.api.service.SatelliteServiceImpl     : Retrieving satellite with id: 1
+2026-02-22T12:10:28.244Z  INFO 31936 --- [satellite-api] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-02-22T12:10:28.245Z  INFO 31936 --- [satellite-api] [Thread-10] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-22T12:10:28.248Z  INFO 31936 --- [satellite-api] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-02-22T12:10:28.250Z  INFO 31936 --- [satellite-api] [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-22T12:10:28.251Z  WARN 31936 --- [satellite-api] [Thread-10] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-240]
+2026-02-22T12:10:28.251Z  INFO 31936 --- [satellite-api] [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-02-22T12:10:28.251Z  INFO 31936 --- [satellite-api] [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2026-02-22T12:10:28.311Z  INFO 31936 --- [satellite-api] [restartedMain] c.satellite.api.SatelliteApiApplication  : Starting SatelliteApiApplication using Java 21.0.10 with PID 31936 (C:\Users\David\OneDrive\Desktop\satellite-api\satellite-api\target\classes started by David in C:\Users\David\OneDrive\Desktop\satellite-api\satellite-api)
+2026-02-22T12:10:28.311Z  INFO 31936 --- [satellite-api] [restartedMain] c.satellite.api.SatelliteApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-02-22T12:10:28.425Z  INFO 31936 --- [satellite-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-22T12:10:28.432Z  INFO 31936 --- [satellite-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interface.
+2026-02-22T12:10:28.459Z  WARN 31936 --- [satellite-api] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.satellite.api.service.SatelliteServiceImpl] for bean with name 'satelliteServiceImpl' defined in file [C:\Users\David\OneDrive\Desktop\satellite-api\satellite-api\target\classes\com\satellite\api\service\SatelliteServiceImpl.class]
+2026-02-22T12:10:28.462Z  INFO 31936 --- [satellite-api] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-02-22T12:10:28.470Z ERROR 31936 --- [satellite-api] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.satellite.api.service.SatelliteServiceImpl] for bean with name 'satelliteServiceImpl' defined in file [C:\Users\David\OneDrive\Desktop\satellite-api\satellite-api\target\classes\com\satellite\api\service\SatelliteServiceImpl.class]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1571) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:686) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:655) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getType(AbstractBeanFactory.java:733) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAnnotationOnBean(DefaultListableBeanFactory.java:811) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.boot.sql.init.dependency.AnnotationDependsOnDatabaseInitializationDetector.detect(AnnotationDependsOnDatabaseInitializationDetector.java:36) ~[spring-boot-sql-4.0.3.jar:4.0.3]
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.detectDependsOnInitializationBeanNames(DatabaseInitializationDependencyConfigurer.java:155) ~[spring-boot-sql-4.0.3.jar:4.0.3]
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.postProcessBeanFactory(DatabaseInitializationDependencyConfigurer.java:118) ~[spring-boot-sql-4.0.3.jar:4.0.3]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363) ~[spring-context-7.0.5.jar:7.0.5]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:197) ~[spring-context-7.0.5.jar:7.0.5]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:795) ~[spring-context-7.0.5.jar:7.0.5]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:603) ~[spring-context-7.0.5.jar:7.0.5]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.3.jar:4.0.3]
+	at com.satellite.api.SatelliteApiApplication.main(SatelliteApiApplication.java:19) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.3.jar:4.0.3]
+Caused by: java.lang.ClassNotFoundException: com.satellite.api.service.SatelliteServiceImpl
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:536) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:515) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:123) ~[spring-boot-devtools-4.0.3.jar:4.0.3]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:536) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:515) ~[na:na]
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:302) ~[spring-core-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:489) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1638) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1564) ~[spring-beans-7.0.5.jar:7.0.5]
+	... 21 common frames omitted
+
+2026-02-22T12:10:29.914Z  INFO 31936 --- [satellite-api] [restartedMain] c.satellite.api.SatelliteApiApplication  : Starting SatelliteApiApplication using Java 21.0.10 with PID 31936 (C:\Users\David\OneDrive\Desktop\satellite-api\satellite-api\target\classes started by David in C:\Users\David\OneDrive\Desktop\satellite-api\satellite-api)
+2026-02-22T12:10:29.914Z  INFO 31936 --- [satellite-api] [restartedMain] c.satellite.api.SatelliteApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-02-22T12:10:30.001Z  INFO 31936 --- [satellite-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-22T12:10:30.007Z  INFO 31936 --- [satellite-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interface.
+2026-02-22T12:10:30.047Z  INFO 31936 --- [satellite-api] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-02-22T12:10:30.048Z  INFO 31936 --- [satellite-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-22T12:10:30.049Z  INFO 31936 --- [satellite-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-02-22T12:10:30.061Z  INFO 31936 --- [satellite-api] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 145 ms
+2026-02-22T12:10:30.081Z  INFO 31936 --- [satellite-api] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-22T12:10:30.095Z  INFO 31936 --- [satellite-api] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-22T12:10:30.096Z  INFO 31936 --- [satellite-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-02-22T12:10:30.097Z  INFO 31936 --- [satellite-api] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn30: url=jdbc:h2:mem:satellitedb user=SA
+2026-02-22T12:10:30.097Z  INFO 31936 --- [satellite-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-02-22T12:10:30.098Z  INFO 31936 --- [satellite-api] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:satellitedb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: SATELLITEDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-22T12:10:30.119Z  INFO 31936 --- [satellite-api] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22T12:10:30.121Z  INFO 31936 --- [satellite-api] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-22T12:10:30.162Z  WARN 31936 --- [satellite-api] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-22T12:10:30.224Z  INFO 31936 --- [satellite-api] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-02-22T12:10:30.293Z  INFO 31936 --- [satellite-api] [restartedMain] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:satellitedb'
+2026-02-22T12:10:30.302Z  INFO 31936 --- [satellite-api] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-02-22T12:10:30.303Z  INFO 31936 --- [satellite-api] [restartedMain] c.satellite.api.SatelliteApiApplication  : Started SatelliteApiApplication in 0.4 seconds (process running for 894.859)
+2026-02-22T12:10:30.311Z  INFO 31936 --- [satellite-api] [restartedMain] com.satellite.api.config.DataSeeder      : Seeded database with 3 sample satellites
+2026-02-22T12:10:30.312Z  INFO 31936 --- [satellite-api] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-02-22T12:11:36.696Z  INFO 31936 --- [satellite-api] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-02-22T12:11:36.697Z  INFO 31936 --- [satellite-api] [Thread-14] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-22T12:11:36.699Z  INFO 31936 --- [satellite-api] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-02-22T12:11:36.700Z  INFO 31936 --- [satellite-api] [Thread-14] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-22T12:11:36.702Z  WARN 31936 --- [satellite-api] [Thread-14] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-240]
+2026-02-22T12:11:36.702Z  INFO 31936 --- [satellite-api] [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2026-02-22T12:11:36.702Z  INFO 31936 --- [satellite-api] [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2026-02-22T12:11:36.757Z  INFO 31936 --- [satellite-api] [restartedMain] c.satellite.api.SatelliteApiApplication  : Starting SatelliteApiApplication using Java 21.0.10 with PID 31936 (C:\Users\David\OneDrive\Desktop\satellite-api\satellite-api\target\classes started by David in C:\Users\David\OneDrive\Desktop\satellite-api\satellite-api)
+2026-02-22T12:11:36.758Z  INFO 31936 --- [satellite-api] [restartedMain] c.satellite.api.SatelliteApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-02-22T12:11:36.839Z  INFO 31936 --- [satellite-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-22T12:11:36.844Z  INFO 31936 --- [satellite-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+2026-02-22T12:11:36.878Z  INFO 31936 --- [satellite-api] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-02-22T12:11:36.878Z  INFO 31936 --- [satellite-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-22T12:11:36.878Z  INFO 31936 --- [satellite-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-02-22T12:11:36.889Z  INFO 31936 --- [satellite-api] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 130 ms
+2026-02-22T12:11:36.903Z  INFO 31936 --- [satellite-api] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-22T12:11:36.916Z  INFO 31936 --- [satellite-api] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-22T12:11:36.917Z  INFO 31936 --- [satellite-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2026-02-22T12:11:36.918Z  INFO 31936 --- [satellite-api] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection conn40: url=jdbc:h2:mem:satellitedb user=SA
+2026-02-22T12:11:36.918Z  INFO 31936 --- [satellite-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2026-02-22T12:11:36.918Z  INFO 31936 --- [satellite-api] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:satellitedb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: SATELLITEDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-22T12:11:36.939Z  INFO 31936 --- [satellite-api] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22T12:11:36.941Z  INFO 31936 --- [satellite-api] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-22T12:11:36.969Z  WARN 31936 --- [satellite-api] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-22T12:11:37.029Z  INFO 31936 --- [satellite-api] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-02-22T12:11:37.089Z  INFO 31936 --- [satellite-api] [restartedMain] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:satellitedb'
+2026-02-22T12:11:37.096Z  INFO 31936 --- [satellite-api] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-02-22T12:11:37.097Z  INFO 31936 --- [satellite-api] [restartedMain] c.satellite.api.SatelliteApiApplication  : Started SatelliteApiApplication in 0.351 seconds (process running for 961.654)
+2026-02-22T12:11:37.103Z  INFO 31936 --- [satellite-api] [restartedMain] com.satellite.api.config.DataSeeder      : Seeded database with 3 sample satellites
+2026-02-22T12:11:37.104Z  INFO 31936 --- [satellite-api] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-02-22T12:11:49.541Z  INFO 274292 --- [satellite-api] [main] s.a.c.SatelliteControllerIntegrationTest : Starting SatelliteControllerIntegrationTest using Java 21.0.10 with PID 274292 (started by David in C:\Users\David\OneDrive\Desktop\satellite-api\satellite-api)
+2026-02-22T12:11:49.542Z  INFO 274292 --- [satellite-api] [main] s.a.c.SatelliteControllerIntegrationTest : No active profile set, falling back to 1 default profile: "default"
+2026-02-22T12:11:50.135Z  INFO 274292 --- [satellite-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-22T12:11:50.173Z  INFO 274292 --- [satellite-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interface.
+2026-02-22T12:11:50.558Z  INFO 274292 --- [satellite-api] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-22T12:11:50.623Z  INFO 274292 --- [satellite-api] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-02-22T12:11:50.933Z  INFO 274292 --- [satellite-api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-22T12:11:50.952Z  INFO 274292 --- [satellite-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-22T12:11:51.042Z  INFO 274292 --- [satellite-api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:satellitedb user=SA
+2026-02-22T12:11:51.043Z  INFO 274292 --- [satellite-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-22T12:11:51.075Z  INFO 274292 --- [satellite-api] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:satellitedb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: SATELLITEDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-22T12:11:51.569Z  INFO 274292 --- [satellite-api] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22T12:11:51.590Z  INFO 274292 --- [satellite-api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-22T12:11:51.646Z  INFO 274292 --- [satellite-api] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-22T12:11:51.898Z  WARN 274292 --- [satellite-api] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-22T12:11:52.038Z  INFO 274292 --- [satellite-api] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-02-22T12:11:52.486Z  INFO 274292 --- [satellite-api] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:satellitedb'
+2026-02-22T12:11:52.554Z  INFO 274292 --- [satellite-api] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-02-22T12:11:52.555Z  INFO 274292 --- [satellite-api] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-02-22T12:11:52.556Z  INFO 274292 --- [satellite-api] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-02-22T12:11:52.576Z  INFO 274292 --- [satellite-api] [main] s.a.c.SatelliteControllerIntegrationTest : Started SatelliteControllerIntegrationTest in 3.244 seconds (process running for 4.035)
+2026-02-22T12:11:52.869Z  INFO 274292 --- [satellite-api] [main] com.satellite.api.config.DataSeeder      : Seeded database with 3 sample satellites
+2026-02-22T12:11:53.130Z  INFO 274292 --- [satellite-api] [main] c.s.api.service.DefaultSatelliteService  : Retrieving satellite with id: 4
+2026-02-22T12:11:53.314Z  INFO 274292 --- [satellite-api] [main] c.s.api.service.DefaultSatelliteService  : Deleting satellite with id: 9999
+2026-02-22T12:11:53.349Z  WARN 274292 --- [satellite-api] [main] c.s.a.exception.GlobalExceptionHandler   : Satellite not found: Satellite not found with id: 9999
+2026-02-22T12:11:53.410Z  INFO 274292 --- [satellite-api] [main] c.s.api.service.DefaultSatelliteService  : Deleting satellite with id: 6
+2026-02-22T12:11:53.415Z  INFO 274292 --- [satellite-api] [main] c.s.api.service.DefaultSatelliteService  : Retrieving satellite with id: 6
+2026-02-22T12:11:53.416Z  WARN 274292 --- [satellite-api] [main] c.s.a.exception.GlobalExceptionHandler   : Satellite not found: Satellite not found with id: 6
+2026-02-22T12:11:53.429Z  INFO 274292 --- [satellite-api] [main] c.s.api.service.DefaultSatelliteService  : Retrieving position for satellite with id: 9999
+2026-02-22T12:11:53.430Z  WARN 274292 --- [satellite-api] [main] c.s.a.exception.GlobalExceptionHandler   : Satellite not found: Satellite not found with id: 9999
+2026-02-22T12:11:53.438Z  INFO 274292 --- [satellite-api] [main] c.s.api.service.DefaultSatelliteService  : Retrieving position for satellite with id: 9
+2026-02-22T12:11:53.446Z  INFO 274292 --- [satellite-api] [main] c.s.api.service.DefaultSatelliteService  : Retrieving all satellites
+2026-02-22T12:11:53.556Z  INFO 274292 --- [satellite-api] [main] c.s.api.service.DefaultSatelliteService  : Updating satellite with id: 9999
+2026-02-22T12:11:53.557Z  WARN 274292 --- [satellite-api] [main] c.s.a.exception.GlobalExceptionHandler   : Satellite not found: Satellite not found with id: 9999
+2026-02-22T12:11:53.565Z  INFO 274292 --- [satellite-api] [main] c.s.api.service.DefaultSatelliteService  : Retrieving satellite with id: 9999
+2026-02-22T12:11:53.566Z  WARN 274292 --- [satellite-api] [main] c.s.a.exception.GlobalExceptionHandler   : Satellite not found: Satellite not found with id: 9999
+2026-02-22T12:11:53.626Z  WARN 274292 --- [satellite-api] [main] c.s.a.exception.GlobalExceptionHandler   : Validation failed: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.satellite.api.dto.SatelliteResponse> com.satellite.api.controller.SatelliteController.createSatellite(com.satellite.api.dto.SatelliteRequest) with 4 errors: [Field error in object 'satelliteRequest' on field 'launchDate': rejected value [null]; codes [NotNull.satelliteRequest.launchDate,NotNull.launchDate,NotNull.java.time.LocalDateTime,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [satelliteRequest.launchDate,launchDate]; arguments []; default message [launchDate]]; default message [Launch date is required]] [Field error in object 'satelliteRequest' on field 'name': rejected value []; codes [NotBlank.satelliteRequest.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [satelliteRequest.name,name]; arguments []; default message [name]]; default message [Name is required]] [Field error in object 'satelliteRequest' on field 'orbit': rejected value [null]; codes [NotNull.satelliteRequest.orbit,NotNull.orbit,NotNull.com.satellite.api.model.OrbitType,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [satelliteRequest.orbit,orbit]; arguments []; default message [orbit]]; default message [Orbit type is required]] [Field error in object 'satelliteRequest' on field 'parameters': rejected value [null]; codes [NotNull.satelliteRequest.parameters,NotNull.parameters,NotNull.com.satellite.api.dto.SatelliteParametersRequest,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [satelliteRequest.parameters,parameters]; arguments []; default message [parameters]]; default message [Parameters are required]] 
+2026-02-22T12:11:53.685Z  WARN 274292 --- [satellite-api] [main] c.s.a.exception.GlobalExceptionHandler   : Validation failed: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.satellite.api.dto.SatelliteResponse> com.satellite.api.controller.SatelliteController.createSatellite(com.satellite.api.dto.SatelliteRequest) with 3 errors: [Field error in object 'satelliteRequest' on field 'parameters.lon': rejected value [-999.0]; codes [DecimalMin.satelliteRequest.parameters.lon,DecimalMin.parameters.lon,DecimalMin.lon,DecimalMin.double,DecimalMin]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [satelliteRequest.parameters.lon,parameters.lon]; arguments []; default message [parameters.lon],true,-180.0]; default message [Longitude must be >= -180]] [Field error in object 'satelliteRequest' on field 'parameters.alt': rejected value [-100.0]; codes [Min.satelliteRequest.parameters.alt,Min.parameters.alt,Min.alt,Min.double,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [satelliteRequest.parameters.alt,parameters.alt]; arguments []; default message [parameters.alt],0]; default message [Altitude must be >= 0]] [Field error in object 'satelliteRequest' on field 'parameters.lat': rejected value [999.0]; codes [DecimalMax.satelliteRequest.parameters.lat,DecimalMax.parameters.lat,DecimalMax.lat,DecimalMax.double,DecimalMax]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [satelliteRequest.parameters.lat,parameters.lat]; arguments []; default message [parameters.lat],true,90.0]; default message [Latitude must be <= 90]] 
+2026-02-22T12:11:53.739Z  INFO 274292 --- [satellite-api] [main] c.s.api.service.DefaultSatelliteService  : Creating satellite: Hubble
+2026-02-22T12:11:53.793Z  INFO 274292 --- [satellite-api] [main] c.s.api.service.DefaultSatelliteService  : Updating satellite with id: 17
+2026-02-22T12:11:53.806Z  INFO 274292 --- [satellite-api] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.satellite.api.SatelliteApiApplicationTests]: SatelliteApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-22T12:11:53.810Z  INFO 274292 --- [satellite-api] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.satellite.api.SatelliteApiApplication for test class com.satellite.api.SatelliteApiApplicationTests
+2026-02-22T12:11:53.813Z  INFO 274292 --- [satellite-api] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2026-02-22T12:11:53.828Z  INFO 274292 --- [satellite-api] [main] c.s.api.SatelliteApiApplicationTests     : Starting SatelliteApiApplicationTests using Java 21.0.10 with PID 274292 (started by David in C:\Users\David\OneDrive\Desktop\satellite-api\satellite-api)
+2026-02-22T12:11:53.829Z  INFO 274292 --- [satellite-api] [main] c.s.api.SatelliteApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2026-02-22T12:11:53.925Z  INFO 274292 --- [satellite-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-22T12:11:53.932Z  INFO 274292 --- [satellite-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2026-02-22T12:11:53.966Z  INFO 274292 --- [satellite-api] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-22T12:11:53.984Z  INFO 274292 --- [satellite-api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-22T12:11:53.985Z  INFO 274292 --- [satellite-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-02-22T12:11:53.986Z  INFO 274292 --- [satellite-api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:satellitedb user=SA
+2026-02-22T12:11:53.986Z  INFO 274292 --- [satellite-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-02-22T12:11:53.986Z  INFO 274292 --- [satellite-api] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:satellitedb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: SATELLITEDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-22T12:11:54.006Z  INFO 274292 --- [satellite-api] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-22T12:11:54.009Z  INFO 274292 --- [satellite-api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-22T12:11:54.034Z  WARN 274292 --- [satellite-api] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-22T12:11:54.095Z  INFO 274292 --- [satellite-api] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-02-22T12:11:54.143Z  INFO 274292 --- [satellite-api] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:satellitedb'
+2026-02-22T12:11:54.150Z  INFO 274292 --- [satellite-api] [main] c.s.api.SatelliteApiApplicationTests     : Started SatelliteApiApplicationTests in 0.337 seconds (process running for 5.61)
+2026-02-22T12:11:54.155Z  INFO 274292 --- [satellite-api] [main] com.satellite.api.config.DataSeeder      : Seeded database with 3 sample satellites
+2026-02-22T12:11:54.502Z  INFO 274292 --- [satellite-api] [main] c.s.api.service.DefaultSatelliteService  : Deleting satellite with id: 99
+2026-02-22T12:11:54.551Z  INFO 274292 --- [satellite-api] [main] c.s.api.service.DefaultSatelliteService  : Retrieving position for satellite with id: 1
+2026-02-22T12:11:54.572Z  INFO 274292 --- [satellite-api] [main] c.s.api.service.DefaultSatelliteService  : Updating satellite with id: 1
+2026-02-22T12:11:54.577Z  INFO 274292 --- [satellite-api] [main] c.s.api.service.DefaultSatelliteService  : Updating satellite with id: 99
+2026-02-22T12:11:54.579Z  INFO 274292 --- [satellite-api] [main] c.s.api.service.DefaultSatelliteService  : Retrieving all satellites
+2026-02-22T12:11:54.602Z  INFO 274292 --- [satellite-api] [main] c.s.api.service.DefaultSatelliteService  : Retrieving all satellites
+2026-02-22T12:11:54.616Z  INFO 274292 --- [satellite-api] [main] c.s.api.service.DefaultSatelliteService  : Retrieving satellite with id: 1
+2026-02-22T12:11:54.618Z  INFO 274292 --- [satellite-api] [main] c.s.api.service.DefaultSatelliteService  : Retrieving satellite with id: 99
+2026-02-22T12:11:54.621Z  INFO 274292 --- [satellite-api] [main] c.s.api.service.DefaultSatelliteService  : Retrieving position for satellite with id: 99
+2026-02-22T12:11:54.622Z  INFO 274292 --- [satellite-api] [main] c.s.api.service.DefaultSatelliteService  : Creating satellite: ISS
+2026-02-22T12:11:54.627Z  INFO 274292 --- [satellite-api] [main] c.s.api.service.DefaultSatelliteService  : Deleting satellite with id: 1
+2026-02-22T12:11:54.638Z  INFO 274292 --- [satellite-api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-22T12:11:54.645Z  INFO 274292 --- [satellite-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-02-22T12:11:54.649Z  INFO 274292 --- [satellite-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-02-22T12:11:54.652Z  INFO 274292 --- [satellite-api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-22T12:11:54.653Z  INFO 274292 --- [satellite-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-02-22T12:11:54.654Z  INFO 274292 --- [satellite-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
